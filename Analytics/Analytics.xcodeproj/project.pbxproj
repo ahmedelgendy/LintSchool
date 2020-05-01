@@ -7,23 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFC10FB8245CBBA80016643B /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC10FB6245CBBA80016643B /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFC10FC0245CBBB70016643B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC10FBF245CBBB70016643B /* Coordinator.swift */; };
-		AFC10FC6245CBC460016643B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC10FC5245CBC460016643B /* Router.swift */; };
-		AFC10FC8245CBC4D0016643B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC10FC7245CBC4D0016643B /* Coordinator.swift */; };
+		AFC10F4E245B81EB0016643B /* Analytics.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC10F4C245B81EB0016643B /* Analytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFC10F55245B82730016643B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC10F54245B82730016643B /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AFC10FB3245CBBA80016643B /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFC10FB6245CBBA80016643B /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
-		AFC10FB7245CBBA80016643B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFC10FBF245CBBB70016643B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		AFC10FC5245CBC460016643B /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		AFC10FC7245CBC4D0016643B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		AFC10F49245B81EB0016643B /* Analytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Analytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFC10F4C245B81EB0016643B /* Analytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Analytics.h; sourceTree = "<group>"; };
+		AFC10F4D245B81EB0016643B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFC10F54245B82730016643B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AFC10FB0245CBBA80016643B /* Frameworks */ = {
+		AFC10F46245B81EB0016643B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,81 +29,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AFC10FA9245CBBA80016643B = {
+		AFC10F3F245B81EB0016643B = {
 			isa = PBXGroup;
 			children = (
-				AFC10FB5245CBBA80016643B /* Common */,
-				AFC10FB4245CBBA80016643B /* Products */,
+				AFC10F4B245B81EB0016643B /* Analytics */,
+				AFC10F4A245B81EB0016643B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		AFC10FB4245CBBA80016643B /* Products */ = {
+		AFC10F4A245B81EB0016643B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AFC10FB3245CBBA80016643B /* Common.framework */,
+				AFC10F49245B81EB0016643B /* Analytics.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFC10FB5245CBBA80016643B /* Common */ = {
+		AFC10F4B245B81EB0016643B /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				AFC10FC7245CBC4D0016643B /* Coordinator.swift */,
-				AFC10FC5245CBC460016643B /* Router.swift */,
-				AFC10FBF245CBBB70016643B /* Coordinator.swift */,
-				AFC10FB6245CBBA80016643B /* Common.h */,
-				AFC10FB7245CBBA80016643B /* Info.plist */,
+				AFC10F54245B82730016643B /* Config.swift */,
+				AFC10F4C245B81EB0016643B /* Analytics.h */,
+				AFC10F4D245B81EB0016643B /* Info.plist */,
 			);
-			path = Common;
+			path = Analytics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AFC10FAE245CBBA80016643B /* Headers */ = {
+		AFC10F44245B81EB0016643B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC10FB8245CBBA80016643B /* Common.h in Headers */,
+				AFC10F4E245B81EB0016643B /* Analytics.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AFC10FB2245CBBA80016643B /* Common */ = {
+		AFC10F48245B81EB0016643B /* Analytics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFC10FBB245CBBA80016643B /* Build configuration list for PBXNativeTarget "Common" */;
+			buildConfigurationList = AFC10F51245B81EB0016643B /* Build configuration list for PBXNativeTarget "Analytics" */;
 			buildPhases = (
-				AFC10FAE245CBBA80016643B /* Headers */,
-				AFC10FAF245CBBA80016643B /* Sources */,
-				AFC10FB0245CBBA80016643B /* Frameworks */,
-				AFC10FB1245CBBA80016643B /* Resources */,
+				AFC10F44245B81EB0016643B /* Headers */,
+				AFC10F45245B81EB0016643B /* Sources */,
+				AFC10F46245B81EB0016643B /* Frameworks */,
+				AFC10F47245B81EB0016643B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Common;
-			productName = Common;
-			productReference = AFC10FB3245CBBA80016643B /* Common.framework */;
+			name = Analytics;
+			productName = Analytics;
+			productReference = AFC10F49245B81EB0016643B /* Analytics.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AFC10FAA245CBBA80016643B /* Project object */ = {
+		AFC10F40245B81EB0016643B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Elgendy;
 				TargetAttributes = {
-					AFC10FB2245CBBA80016643B = {
+					AFC10F48245B81EB0016643B = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
-			buildConfigurationList = AFC10FAD245CBBA80016643B /* Build configuration list for PBXProject "Common" */;
+			buildConfigurationList = AFC10F43245B81EB0016643B /* Build configuration list for PBXProject "Analytics" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,18 +110,18 @@
 				en,
 				Base,
 			);
-			mainGroup = AFC10FA9245CBBA80016643B;
-			productRefGroup = AFC10FB4245CBBA80016643B /* Products */;
+			mainGroup = AFC10F3F245B81EB0016643B;
+			productRefGroup = AFC10F4A245B81EB0016643B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AFC10FB2245CBBA80016643B /* Common */,
+				AFC10F48245B81EB0016643B /* Analytics */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AFC10FB1245CBBA80016643B /* Resources */ = {
+		AFC10F47245B81EB0016643B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,20 +131,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AFC10FAF245CBBA80016643B /* Sources */ = {
+		AFC10F45245B81EB0016643B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC10FC6245CBC460016643B /* Router.swift in Sources */,
-				AFC10FC0245CBBB70016643B /* Coordinator.swift in Sources */,
-				AFC10FC8245CBC4D0016643B /* Coordinator.swift in Sources */,
+				AFC10F55245B82730016643B /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AFC10FB9245CBBA80016643B /* Debug */ = {
+		AFC10F4F245B81EB0016643B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		AFC10FBA245CBBA80016643B /* Release */ = {
+		AFC10F50245B81EB0016643B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -269,47 +262,50 @@
 			};
 			name = Release;
 		};
-		AFC10FBC245CBBA80016643B /* Debug */ = {
+		AFC10F52245B81EB0016643B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = SL6Z7K687C;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Common/Info.plist;
+				INFOPLIST_FILE = Analytics/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.Common;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.Analytics;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AFC10FBD245CBBA80016643B /* Release */ = {
+		AFC10F53245B81EB0016643B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = SL6Z7K687C;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Common/Info.plist;
+				INFOPLIST_FILE = Analytics/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.Common;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.Analytics;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,25 +316,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFC10FAD245CBBA80016643B /* Build configuration list for PBXProject "Common" */ = {
+		AFC10F43245B81EB0016643B /* Build configuration list for PBXProject "Analytics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFC10FB9245CBBA80016643B /* Debug */,
-				AFC10FBA245CBBA80016643B /* Release */,
+				AFC10F4F245B81EB0016643B /* Debug */,
+				AFC10F50245B81EB0016643B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFC10FBB245CBBA80016643B /* Build configuration list for PBXNativeTarget "Common" */ = {
+		AFC10F51245B81EB0016643B /* Build configuration list for PBXNativeTarget "Analytics" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFC10FBC245CBBA80016643B /* Debug */,
-				AFC10FBD245CBBA80016643B /* Release */,
+				AFC10F52245B81EB0016643B /* Debug */,
+				AFC10F53245B81EB0016643B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AFC10FAA245CBBA80016643B /* Project object */;
+	rootObject = AFC10F40245B81EB0016643B /* Project object */;
 }
