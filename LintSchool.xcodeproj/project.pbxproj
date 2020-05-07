@@ -416,7 +416,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.LintSchool;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.elgendy.LintSchool-Debug";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SERVER_URL = "https://debug.lintschool.com";
 				SWIFT_VERSION = 5.0;
@@ -516,7 +516,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.LintSchool;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.elgendy.LintSchool-Alpha";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SERVER_URL = "https://alpha.lintschool.com";
 				SWIFT_VERSION = 5.0;
@@ -596,7 +596,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.LintSchool;
+				PRODUCT_BUNDLE_IDENTIFIER = "dev.elgendy.LintSchool-Beta";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SERVER_URL = "https://beta.lintschool.com";
 				SWIFT_VERSION = 5.0;
