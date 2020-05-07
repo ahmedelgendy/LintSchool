@@ -7,128 +7,131 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A318B8A084922C355C2D8A77 /* Pods_Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C2D53F50E018D791173DC51 /* Pods_Analytics.framework */; };
-		AF8377452464B0E6002219F5 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8377442464B0E6002219F5 /* Config.swift */; };
-		AF9460832464AAE2004F1282 /* Analytics.h in Headers */ = {isa = PBXBuildFile; fileRef = AF9460812464AAE2004F1282 /* Analytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF83772B2464ACAB002219F5 /* Course.h in Headers */ = {isa = PBXBuildFile; fileRef = AF8377292464ACAB002219F5 /* Course.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF8377332464AE5D002219F5 /* CourseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF8377312464AE5D002219F5 /* CourseViewController.swift */; };
+		AF8377342464AE5D002219F5 /* CourseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF8377322464AE5D002219F5 /* CourseViewController.xib */; };
+		C5EA5CD9EAFE281B2D0CCD17 /* Pods_Course.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91FA36B845AEB92581AAD43C /* Pods_Course.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D009CC0B5E8EC293C8F19D4 /* Pods-Analytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Analytics.debug.xcconfig"; path = "Target Support Files/Pods-Analytics/Pods-Analytics.debug.xcconfig"; sourceTree = "<group>"; };
-		9C2D53F50E018D791173DC51 /* Pods_Analytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Analytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF8377442464B0E6002219F5 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
-		AF94607E2464AAE2004F1282 /* Analytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Analytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF9460812464AAE2004F1282 /* Analytics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Analytics.h; sourceTree = "<group>"; };
-		AF9460822464AAE2004F1282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E81D13F5CF356860C4F263E9 /* Pods-Analytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Analytics.release.xcconfig"; path = "Target Support Files/Pods-Analytics/Pods-Analytics.release.xcconfig"; sourceTree = "<group>"; };
+		315B7DFF5A69BD7A60878D99 /* Pods-Course.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Course.release.xcconfig"; path = "Target Support Files/Pods-Course/Pods-Course.release.xcconfig"; sourceTree = "<group>"; };
+		4A6C9BA027FDFD7EE3B37039 /* Pods-Course.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Course.debug.xcconfig"; path = "Target Support Files/Pods-Course/Pods-Course.debug.xcconfig"; sourceTree = "<group>"; };
+		91FA36B845AEB92581AAD43C /* Pods_Course.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Course.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8377262464ACAB002219F5 /* Course.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Course.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8377292464ACAB002219F5 /* Course.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Course.h; sourceTree = "<group>"; };
+		AF83772A2464ACAB002219F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF8377312464AE5D002219F5 /* CourseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseViewController.swift; sourceTree = "<group>"; };
+		AF8377322464AE5D002219F5 /* CourseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AF94607B2464AAE2004F1282 /* Frameworks */ = {
+		AF8377232464ACAB002219F5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A318B8A084922C355C2D8A77 /* Pods_Analytics.framework in Frameworks */,
+				C5EA5CD9EAFE281B2D0CCD17 /* Pods_Course.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		43BC18963E42C94A00C34F35 /* Pods */ = {
+		786E7091AD23CDD79D18E09F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1D009CC0B5E8EC293C8F19D4 /* Pods-Analytics.debug.xcconfig */,
-				E81D13F5CF356860C4F263E9 /* Pods-Analytics.release.xcconfig */,
+				4A6C9BA027FDFD7EE3B37039 /* Pods-Course.debug.xcconfig */,
+				315B7DFF5A69BD7A60878D99 /* Pods-Course.release.xcconfig */,
 			);
 			name = Pods;
-			path = ../Pods;
+			path = ../../Pods;
 			sourceTree = "<group>";
 		};
-		AF9460742464AAE1004F1282 = {
+		AD6D74DD4B331C2068BB7768 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF9460802464AAE2004F1282 /* Analytics */,
-				AF94607F2464AAE2004F1282 /* Products */,
-				43BC18963E42C94A00C34F35 /* Pods */,
-				B229CD817D2ABF89525907F9 /* Frameworks */,
+				91FA36B845AEB92581AAD43C /* Pods_Course.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF83771C2464ACAB002219F5 = {
+			isa = PBXGroup;
+			children = (
+				AF8377282464ACAB002219F5 /* Course */,
+				AF8377272464ACAB002219F5 /* Products */,
+				786E7091AD23CDD79D18E09F /* Pods */,
+				AD6D74DD4B331C2068BB7768 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		AF94607F2464AAE2004F1282 /* Products */ = {
+		AF8377272464ACAB002219F5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF94607E2464AAE2004F1282 /* Analytics.framework */,
+				AF8377262464ACAB002219F5 /* Course.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF9460802464AAE2004F1282 /* Analytics */ = {
+		AF8377282464ACAB002219F5 /* Course */ = {
 			isa = PBXGroup;
 			children = (
-				AF8377442464B0E6002219F5 /* Config.swift */,
-				AF9460812464AAE2004F1282 /* Analytics.h */,
-				AF9460822464AAE2004F1282 /* Info.plist */,
+				AF8377312464AE5D002219F5 /* CourseViewController.swift */,
+				AF8377322464AE5D002219F5 /* CourseViewController.xib */,
+				AF8377292464ACAB002219F5 /* Course.h */,
+				AF83772A2464ACAB002219F5 /* Info.plist */,
 			);
-			path = Analytics;
-			sourceTree = "<group>";
-		};
-		B229CD817D2ABF89525907F9 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				9C2D53F50E018D791173DC51 /* Pods_Analytics.framework */,
-			);
-			name = Frameworks;
+			path = Course;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AF9460792464AAE2004F1282 /* Headers */ = {
+		AF8377212464ACAB002219F5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF9460832464AAE2004F1282 /* Analytics.h in Headers */,
+				AF83772B2464ACAB002219F5 /* Course.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AF94607D2464AAE2004F1282 /* Analytics */ = {
+		AF8377252464ACAB002219F5 /* Course */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF9460862464AAE2004F1282 /* Build configuration list for PBXNativeTarget "Analytics" */;
+			buildConfigurationList = AF83772E2464ACAB002219F5 /* Build configuration list for PBXNativeTarget "Course" */;
 			buildPhases = (
-				7F25B5A8A541F3223E067D5B /* [CP] Check Pods Manifest.lock */,
-				AF9460792464AAE2004F1282 /* Headers */,
-				AF94607A2464AAE2004F1282 /* Sources */,
-				AF94607B2464AAE2004F1282 /* Frameworks */,
-				AF94607C2464AAE2004F1282 /* Resources */,
+				761101384C194C7145C916B2 /* [CP] Check Pods Manifest.lock */,
+				AF8377212464ACAB002219F5 /* Headers */,
+				AF8377222464ACAB002219F5 /* Sources */,
+				AF8377232464ACAB002219F5 /* Frameworks */,
+				AF8377242464ACAB002219F5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Analytics;
-			productName = Analytics;
-			productReference = AF94607E2464AAE2004F1282 /* Analytics.framework */;
+			name = Course;
+			productName = Course;
+			productReference = AF8377262464ACAB002219F5 /* Course.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AF9460752464AAE1004F1282 /* Project object */ = {
+		AF83771D2464ACAB002219F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Elgendy;
 				TargetAttributes = {
-					AF94607D2464AAE2004F1282 = {
+					AF8377252464ACAB002219F5 = {
 						CreatedOnToolsVersion = 11.4.1;
 						LastSwiftMigration = 1140;
 					};
 				};
 			};
-			buildConfigurationList = AF9460782464AAE1004F1282 /* Build configuration list for PBXProject "Analytics" */;
+			buildConfigurationList = AF8377202464ACAB002219F5 /* Build configuration list for PBXProject "Course" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -136,28 +139,29 @@
 				en,
 				Base,
 			);
-			mainGroup = AF9460742464AAE1004F1282;
-			productRefGroup = AF94607F2464AAE2004F1282 /* Products */;
+			mainGroup = AF83771C2464ACAB002219F5;
+			productRefGroup = AF8377272464ACAB002219F5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF94607D2464AAE2004F1282 /* Analytics */,
+				AF8377252464ACAB002219F5 /* Course */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AF94607C2464AAE2004F1282 /* Resources */ = {
+		AF8377242464ACAB002219F5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF8377342464AE5D002219F5 /* CourseViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7F25B5A8A541F3223E067D5B /* [CP] Check Pods Manifest.lock */ = {
+		761101384C194C7145C916B2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -172,7 +176,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Analytics-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Course-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -182,18 +186,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AF94607A2464AAE2004F1282 /* Sources */ = {
+		AF8377222464ACAB002219F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF8377452464B0E6002219F5 /* Config.swift in Sources */,
+				AF8377332464AE5D002219F5 /* CourseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AF9460842464AAE2004F1282 /* Debug */ = {
+		AF83772C2464ACAB002219F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,7 +260,7 @@
 			};
 			name = Debug;
 		};
-		AF9460852464AAE2004F1282 /* Release */ = {
+		AF83772D2464ACAB002219F5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -313,9 +317,9 @@
 			};
 			name = Release;
 		};
-		AF9460872464AAE2004F1282 /* Debug */ = {
+		AF83772F2464ACAB002219F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D009CC0B5E8EC293C8F19D4 /* Pods-Analytics.debug.xcconfig */;
+			baseConfigurationReference = 4A6C9BA027FDFD7EE3B37039 /* Pods-Course.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -324,14 +328,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Analytics/Info.plist;
+				INFOPLIST_FILE = Course/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.Analytics;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.Course;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -340,9 +344,9 @@
 			};
 			name = Debug;
 		};
-		AF9460882464AAE2004F1282 /* Release */ = {
+		AF8377302464ACAB002219F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E81D13F5CF356860C4F263E9 /* Pods-Analytics.release.xcconfig */;
+			baseConfigurationReference = 315B7DFF5A69BD7A60878D99 /* Pods-Course.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -351,14 +355,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Analytics/Info.plist;
+				INFOPLIST_FILE = Course/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.Analytics;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.Course;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -369,25 +373,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF9460782464AAE1004F1282 /* Build configuration list for PBXProject "Analytics" */ = {
+		AF8377202464ACAB002219F5 /* Build configuration list for PBXProject "Course" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF9460842464AAE2004F1282 /* Debug */,
-				AF9460852464AAE2004F1282 /* Release */,
+				AF83772C2464ACAB002219F5 /* Debug */,
+				AF83772D2464ACAB002219F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF9460862464AAE2004F1282 /* Build configuration list for PBXNativeTarget "Analytics" */ = {
+		AF83772E2464ACAB002219F5 /* Build configuration list for PBXNativeTarget "Course" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF9460872464AAE2004F1282 /* Debug */,
-				AF9460882464AAE2004F1282 /* Release */,
+				AF83772F2464ACAB002219F5 /* Debug */,
+				AF8377302464ACAB002219F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AF9460752464AAE1004F1282 /* Project object */;
+	rootObject = AF83771D2464ACAB002219F5 /* Project object */;
 }

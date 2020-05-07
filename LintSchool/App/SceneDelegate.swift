@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  LintSchool
 //
-//  Created by Elgendy on 7.05.2020.
+//  Created by Elgendy on 30.04.2020.
 //  Copyright © 2020 Elgendy. All rights reserved.
 //
 
@@ -12,17 +12,17 @@ import Common
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     var window: UIWindow?
-
     var mainCoordinator: MainCoordinator?
-    
+
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = createRootViewController()
-        window?.makeKeyAndVisible()
+        let window = UIWindow(windowScene: windowScene)
+        self.window = window
+        window.rootViewController = createMainCoordinator()
+        window.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
@@ -57,7 +57,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 }
 
 extension SceneDelegate {
-    func createRootViewController() -> UINavigationController {
+    func createMainCoordinator() -> UINavigationController {
         let navigationController = UINavigationController()
         let router = Router(with: navigationController)
         mainCoordinator = MainCoordinator(router: router)

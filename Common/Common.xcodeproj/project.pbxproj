@@ -7,82 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AFC10FB8245CBBA80016643B /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC10FB6245CBBA80016643B /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AFC10FC0245CBBB70016643B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC10FBF245CBBB70016643B /* Coordinator.swift */; };
-		AFC10FC6245CBC460016643B /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC10FC5245CBC460016643B /* Router.swift */; };
-		AFC10FC8245CBC4D0016643B /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC10FC7245CBC4D0016643B /* Coordinator.swift */; };
+		25DD60F726D9A1DC48A7A648 /* Pods_Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75201A5B11872B7B14CBAC22 /* Pods_Common.framework */; };
+		AF94606E2464AA0F004F1282 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = AF94606C2464AA0F004F1282 /* Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF94608B2464AB3D004F1282 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9460892464AB3D004F1282 /* Coordinator.swift */; };
+		AF94608C2464AB3D004F1282 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF94608A2464AB3D004F1282 /* Router.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AFC10FB3245CBBA80016643B /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFC10FB6245CBBA80016643B /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
-		AFC10FB7245CBBA80016643B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFC10FBF245CBBB70016643B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		AFC10FC5245CBC460016643B /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		AFC10FC7245CBC4D0016643B /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		0AEE1C50D253C15EE388D74F /* Pods-Common.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.debug.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.debug.xcconfig"; sourceTree = "<group>"; };
+		75201A5B11872B7B14CBAC22 /* Pods_Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9460692464AA0F004F1282 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF94606C2464AA0F004F1282 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		AF94606D2464AA0F004F1282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF9460892464AB3D004F1282 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		AF94608A2464AB3D004F1282 /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		E4C3D0E08ED8C795210F5B69 /* Pods-Common.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Common.release.xcconfig"; path = "Target Support Files/Pods-Common/Pods-Common.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AFC10FB0245CBBA80016643B /* Frameworks */ = {
+		AF9460662464AA0F004F1282 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25DD60F726D9A1DC48A7A648 /* Pods_Common.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AFC10FA9245CBBA80016643B = {
+		09771C1B62F9AA832A97F770 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AFC10FB5245CBBA80016643B /* Common */,
-				AFC10FB4245CBBA80016643B /* Products */,
+				0AEE1C50D253C15EE388D74F /* Pods-Common.debug.xcconfig */,
+				E4C3D0E08ED8C795210F5B69 /* Pods-Common.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+		AF94605F2464AA0F004F1282 = {
+			isa = PBXGroup;
+			children = (
+				AF94606B2464AA0F004F1282 /* Common */,
+				AF94606A2464AA0F004F1282 /* Products */,
+				09771C1B62F9AA832A97F770 /* Pods */,
+				F8AAB15CFC08DC69EE10DEB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		AFC10FB4245CBBA80016643B /* Products */ = {
+		AF94606A2464AA0F004F1282 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AFC10FB3245CBBA80016643B /* Common.framework */,
+				AF9460692464AA0F004F1282 /* Common.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFC10FB5245CBBA80016643B /* Common */ = {
+		AF94606B2464AA0F004F1282 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				AFC10FC7245CBC4D0016643B /* Coordinator.swift */,
-				AFC10FC5245CBC460016643B /* Router.swift */,
-				AFC10FBF245CBBB70016643B /* Coordinator.swift */,
-				AFC10FB6245CBBA80016643B /* Common.h */,
-				AFC10FB7245CBBA80016643B /* Info.plist */,
+				AF9460892464AB3D004F1282 /* Coordinator.swift */,
+				AF94608A2464AB3D004F1282 /* Router.swift */,
+				AF94606C2464AA0F004F1282 /* Common.h */,
+				AF94606D2464AA0F004F1282 /* Info.plist */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		F8AAB15CFC08DC69EE10DEB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75201A5B11872B7B14CBAC22 /* Pods_Common.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AFC10FAE245CBBA80016643B /* Headers */ = {
+		AF9460642464AA0F004F1282 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC10FB8245CBBA80016643B /* Common.h in Headers */,
+				AF94606E2464AA0F004F1282 /* Common.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		AFC10FB2245CBBA80016643B /* Common */ = {
+		AF9460682464AA0F004F1282 /* Common */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFC10FBB245CBBA80016643B /* Build configuration list for PBXNativeTarget "Common" */;
+			buildConfigurationList = AF9460712464AA0F004F1282 /* Build configuration list for PBXNativeTarget "Common" */;
 			buildPhases = (
-				AFC10FAE245CBBA80016643B /* Headers */,
-				AFC10FAF245CBBA80016643B /* Sources */,
-				AFC10FB0245CBBA80016643B /* Frameworks */,
-				AFC10FB1245CBBA80016643B /* Resources */,
+				32A3BD82565379AD4B004D99 /* [CP] Check Pods Manifest.lock */,
+				AF9460642464AA0F004F1282 /* Headers */,
+				AF9460652464AA0F004F1282 /* Sources */,
+				AF9460662464AA0F004F1282 /* Frameworks */,
+				AF9460672464AA0F004F1282 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -90,24 +113,25 @@
 			);
 			name = Common;
 			productName = Common;
-			productReference = AFC10FB3245CBBA80016643B /* Common.framework */;
+			productReference = AF9460692464AA0F004F1282 /* Common.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AFC10FAA245CBBA80016643B /* Project object */ = {
+		AF9460602464AA0F004F1282 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Elgendy;
 				TargetAttributes = {
-					AFC10FB2245CBBA80016643B = {
+					AF9460682464AA0F004F1282 = {
 						CreatedOnToolsVersion = 11.4.1;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
-			buildConfigurationList = AFC10FAD245CBBA80016643B /* Build configuration list for PBXProject "Common" */;
+			buildConfigurationList = AF9460632464AA0F004F1282 /* Build configuration list for PBXProject "Common" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,18 +139,18 @@
 				en,
 				Base,
 			);
-			mainGroup = AFC10FA9245CBBA80016643B;
-			productRefGroup = AFC10FB4245CBBA80016643B /* Products */;
+			mainGroup = AF94605F2464AA0F004F1282;
+			productRefGroup = AF94606A2464AA0F004F1282 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AFC10FB2245CBBA80016643B /* Common */,
+				AF9460682464AA0F004F1282 /* Common */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AFC10FB1245CBBA80016643B /* Resources */ = {
+		AF9460672464AA0F004F1282 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -135,21 +159,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32A3BD82565379AD4B004D99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Common-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		AFC10FAF245CBBA80016643B /* Sources */ = {
+		AF9460652464AA0F004F1282 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC10FC6245CBC460016643B /* Router.swift in Sources */,
-				AFC10FC0245CBBB70016643B /* Coordinator.swift in Sources */,
-				AFC10FC8245CBC4D0016643B /* Coordinator.swift in Sources */,
+				AF94608C2464AB3D004F1282 /* Router.swift in Sources */,
+				AF94608B2464AB3D004F1282 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AFC10FB9245CBBA80016643B /* Debug */ = {
+		AF94606F2464AA0F004F1282 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -212,7 +260,7 @@
 			};
 			name = Debug;
 		};
-		AFC10FBA245CBBA80016643B /* Release */ = {
+		AF9460702464AA0F004F1282 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -269,9 +317,11 @@
 			};
 			name = Release;
 		};
-		AFC10FBC245CBBA80016643B /* Debug */ = {
+		AF9460722464AA0F004F1282 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AEE1C50D253C15EE388D74F /* Pods-Common.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = SL6Z7K687C;
@@ -288,14 +338,17 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.Common;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		AFC10FBD245CBBA80016643B /* Release */ = {
+		AF9460732464AA0F004F1282 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4C3D0E08ED8C795210F5B69 /* Pods-Common.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = SL6Z7K687C;
@@ -320,25 +373,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFC10FAD245CBBA80016643B /* Build configuration list for PBXProject "Common" */ = {
+		AF9460632464AA0F004F1282 /* Build configuration list for PBXProject "Common" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFC10FB9245CBBA80016643B /* Debug */,
-				AFC10FBA245CBBA80016643B /* Release */,
+				AF94606F2464AA0F004F1282 /* Debug */,
+				AF9460702464AA0F004F1282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFC10FBB245CBBA80016643B /* Build configuration list for PBXNativeTarget "Common" */ = {
+		AF9460712464AA0F004F1282 /* Build configuration list for PBXNativeTarget "Common" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AFC10FBC245CBBA80016643B /* Debug */,
-				AFC10FBD245CBBA80016643B /* Release */,
+				AF9460722464AA0F004F1282 /* Debug */,
+				AF9460732464AA0F004F1282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AFC10FAA245CBBA80016643B /* Project object */;
+	rootObject = AF9460602464AA0F004F1282 /* Project object */;
 }

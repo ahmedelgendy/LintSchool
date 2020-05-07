@@ -1,0 +1,6 @@
+framework module Pods_LintSchool {
+  umbrella header "Pods-LintSchool-umbrella.h"
+
+  export *
+  module * { export * }
+}

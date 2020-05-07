@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  LintSchool
 //
-//  Created by Elgendy on 7.05.2020.
+//  Created by Elgendy on 30.04.2020.
 //  Copyright © 2020 Elgendy. All rights reserved.
 //
 
@@ -10,9 +10,7 @@ import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true

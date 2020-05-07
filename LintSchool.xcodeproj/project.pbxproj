@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF27C1F6245B569C00184004 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27C1F5245B569C00184004 /* AppDelegate.swift */; };
-		AF27C1F8245B569C00184004 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27C1F7245B569C00184004 /* SceneDelegate.swift */; };
-		AF27C1FA245B569C00184004 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF27C1F9245B569C00184004 /* HomeViewController.swift */; };
-		AF27C1FF245B56A000184004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF27C1FE245B56A000184004 /* Assets.xcassets */; };
-		AF27C202245B56A000184004 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF27C200245B56A000184004 /* LaunchScreen.storyboard */; };
-		AFC10F58245B82C80016643B /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC10F57245B82C80016643B /* Analytics.framework */; };
-		AFC10F59245B82C80016643B /* Analytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFC10F57245B82C80016643B /* Analytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AFC10F5B245C4A5D0016643B /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC10F5A245C4A5D0016643B /* Config.swift */; };
-		AFC10F75245C4C5D0016643B /* Catalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC10F74245C4C5D0016643B /* Catalog.framework */; };
-		AFC10F76245C4C5D0016643B /* Catalog.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFC10F74245C4C5D0016643B /* Catalog.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AFC10F7F245C4F5B0016643B /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC10F7E245C4F5B0016643B /* MainCoordinator.swift */; };
-		AFC10F81245C50AA0016643B /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFC10F80245C50AA0016643B /* HomeViewController.xib */; };
-		AFC10F98245CB5E20016643B /* Course.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC10F97245CB5E20016643B /* Course.framework */; };
-		AFC10F99245CB5E20016643B /* Course.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFC10F97245CB5E20016643B /* Course.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AFC10FA1245CB74C0016643B /* CatalogCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC10FA0245CB74B0016643B /* CatalogCoordinator.swift */; };
-		AFC10FA3245CB7EE0016643B /* CourseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFC10FA2245CB7EE0016643B /* CourseCoordinator.swift */; };
-		AFC10FC3245CBBD20016643B /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFC10FC2245CBBD20016643B /* Common.framework */; };
-		AFC10FC4245CBBD20016643B /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AFC10FC2245CBBD20016643B /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		43E90B6083D5A5DEDAF0C218 /* Pods_LintSchool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3B4D88EB87665723E73E0E9 /* Pods_LintSchool.framework */; };
+		AF83773E2464AE96002219F5 /* Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF83773B2464AE96002219F5 /* Analytics.framework */; };
+		AF83773F2464AE96002219F5 /* Analytics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF83773B2464AE96002219F5 /* Analytics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF8377402464AE96002219F5 /* Catalog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF83773C2464AE96002219F5 /* Catalog.framework */; };
+		AF8377412464AE96002219F5 /* Catalog.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF83773C2464AE96002219F5 /* Catalog.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF8377422464AE96002219F5 /* Course.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF83773D2464AE96002219F5 /* Course.framework */; };
+		AF8377432464AE96002219F5 /* Course.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF83773D2464AE96002219F5 /* Course.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AF9460282464A876004F1282 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9460272464A876004F1282 /* AppDelegate.swift */; };
+		AF94602A2464A876004F1282 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9460292464A876004F1282 /* SceneDelegate.swift */; };
+		AF9460312464A877004F1282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF9460302464A877004F1282 /* Assets.xcassets */; };
+		AF9460342464A877004F1282 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF9460322464A877004F1282 /* LaunchScreen.storyboard */; };
+		AF9460412464A94C004F1282 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF94603E2464A94C004F1282 /* MainCoordinator.swift */; };
+		AF9460422464A94C004F1282 /* CatalogCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF94603F2464A94C004F1282 /* CatalogCoordinator.swift */; };
+		AF9460432464A94C004F1282 /* CourseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9460402464A94C004F1282 /* CourseCoordinator.swift */; };
+		AF9460462464A962004F1282 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF9460442464A962004F1282 /* HomeViewController.xib */; };
+		AF9460472464A962004F1282 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9460452464A962004F1282 /* HomeViewController.swift */; };
+		AF94608E2464AB53004F1282 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF94608D2464AB53004F1282 /* Common.framework */; };
+		AF94608F2464AB53004F1282 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF94608D2464AB53004F1282 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		AFC10F3C245B5B710016643B /* Embed Frameworks */ = {
+		AF9460902464AB53004F1282 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				AFC10F99245CB5E20016643B /* Course.framework in Embed Frameworks */,
-				AFC10FC4245CBBD20016643B /* Common.framework in Embed Frameworks */,
-				AFC10F76245C4C5D0016643B /* Catalog.framework in Embed Frameworks */,
-				AFC10F59245B82C80016643B /* Analytics.framework in Embed Frameworks */,
+				AF8377412464AE96002219F5 /* Catalog.framework in Embed Frameworks */,
+				AF8377432464AE96002219F5 /* Course.framework in Embed Frameworks */,
+				AF94608F2464AB53004F1282 /* Common.framework in Embed Frameworks */,
+				AF83773F2464AE96002219F5 /* Analytics.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -45,105 +45,118 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AF27C1F2245B569C00184004 /* LintSchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LintSchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AF27C1F5245B569C00184004 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
-		AF27C1F7245B569C00184004 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
-		AF27C1F9245B569C00184004 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = LintSchool/HomeViewController.swift; sourceTree = SOURCE_ROOT; };
-		AF27C1FE245B56A000184004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AF27C201245B56A000184004 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		AF27C203245B56A000184004 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFC10F57245B82C80016643B /* Analytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Analytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFC10F5A245C4A5D0016643B /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
-		AFC10F74245C4C5D0016643B /* Catalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Catalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFC10F7E245C4F5B0016643B /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
-		AFC10F80245C50AA0016643B /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
-		AFC10F97245CB5E20016643B /* Course.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Course.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFC10FA0245CB74B0016643B /* CatalogCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogCoordinator.swift; sourceTree = "<group>"; };
-		AFC10FA2245CB7EE0016643B /* CourseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseCoordinator.swift; sourceTree = "<group>"; };
-		AFC10FC2245CBBD20016643B /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		211F3DCE9DE3F824F6F6C453 /* Pods-LintSchool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LintSchool.debug.xcconfig"; path = "Target Support Files/Pods-LintSchool/Pods-LintSchool.debug.xcconfig"; sourceTree = "<group>"; };
+		5A74AAAE29F413524C301EAF /* Pods-LintSchool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LintSchool.release.xcconfig"; path = "Target Support Files/Pods-LintSchool/Pods-LintSchool.release.xcconfig"; sourceTree = "<group>"; };
+		AF83773B2464AE96002219F5 /* Analytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Analytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF83773C2464AE96002219F5 /* Catalog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Catalog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF83773D2464AE96002219F5 /* Course.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Course.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9460242464A876004F1282 /* LintSchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LintSchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9460272464A876004F1282 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../AppDelegate.swift; sourceTree = "<group>"; };
+		AF9460292464A876004F1282 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../SceneDelegate.swift; sourceTree = "<group>"; };
+		AF9460302464A877004F1282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF9460332464A877004F1282 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF9460352464A877004F1282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF94603E2464A94C004F1282 /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		AF94603F2464A94C004F1282 /* CatalogCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogCoordinator.swift; sourceTree = "<group>"; };
+		AF9460402464A94C004F1282 /* CourseCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CourseCoordinator.swift; sourceTree = "<group>"; };
+		AF9460442464A962004F1282 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		AF9460452464A962004F1282 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AF94608D2464AB53004F1282 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3B4D88EB87665723E73E0E9 /* Pods_LintSchool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LintSchool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AF27C1EF245B569C00184004 /* Frameworks */ = {
+		AF9460212464A876004F1282 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFC10F98245CB5E20016643B /* Course.framework in Frameworks */,
-				AFC10FC3245CBBD20016643B /* Common.framework in Frameworks */,
-				AFC10F75245C4C5D0016643B /* Catalog.framework in Frameworks */,
-				AFC10F58245B82C80016643B /* Analytics.framework in Frameworks */,
+				AF8377402464AE96002219F5 /* Catalog.framework in Frameworks */,
+				43E90B6083D5A5DEDAF0C218 /* Pods_LintSchool.framework in Frameworks */,
+				AF8377422464AE96002219F5 /* Course.framework in Frameworks */,
+				AF94608E2464AB53004F1282 /* Common.framework in Frameworks */,
+				AF83773E2464AE96002219F5 /* Analytics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AF27C1E9245B569C00184004 = {
+		1E8AC5C03AD9FA495F16D379 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AF27C1F4245B569C00184004 /* LintSchool */,
-				AF27C1F3245B569C00184004 /* Products */,
-				AFC10F56245B82C80016643B /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		AF27C1F3245B569C00184004 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AF27C1F2245B569C00184004 /* LintSchool.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		AF27C1F4245B569C00184004 /* LintSchool */ = {
-			isa = PBXGroup;
-			children = (
-				AFC10FC9245CC65A0016643B /* App */,
-				AFC10F9F245CB73C0016643B /* Coordinators */,
-				AFC10FCA245CC68B0016643B /* Home */,
-				AF27C1FE245B56A000184004 /* Assets.xcassets */,
-				AF27C200245B56A000184004 /* LaunchScreen.storyboard */,
-				AF27C203245B56A000184004 /* Info.plist */,
-			);
-			path = LintSchool;
-			sourceTree = "<group>";
-		};
-		AFC10F56245B82C80016643B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AFC10FC2245CBBD20016643B /* Common.framework */,
-				AFC10F97245CB5E20016643B /* Course.framework */,
-				AFC10F74245C4C5D0016643B /* Catalog.framework */,
-				AFC10F57245B82C80016643B /* Analytics.framework */,
+				AF83773B2464AE96002219F5 /* Analytics.framework */,
+				AF83773C2464AE96002219F5 /* Catalog.framework */,
+				AF83773D2464AE96002219F5 /* Course.framework */,
+				AF94608D2464AB53004F1282 /* Common.framework */,
+				E3B4D88EB87665723E73E0E9 /* Pods_LintSchool.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		AFC10F9F245CB73C0016643B /* Coordinators */ = {
+		AAA136042443E9527FE941DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AFC10F7E245C4F5B0016643B /* MainCoordinator.swift */,
-				AFC10FA0245CB74B0016643B /* CatalogCoordinator.swift */,
-				AFC10FA2245CB7EE0016643B /* CourseCoordinator.swift */,
+				211F3DCE9DE3F824F6F6C453 /* Pods-LintSchool.debug.xcconfig */,
+				5A74AAAE29F413524C301EAF /* Pods-LintSchool.release.xcconfig */,
 			);
-			path = Coordinators;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		AFC10FC9245CC65A0016643B /* App */ = {
+		AF94601B2464A876004F1282 = {
 			isa = PBXGroup;
 			children = (
-				AF27C1F5245B569C00184004 /* AppDelegate.swift */,
-				AF27C1F7245B569C00184004 /* SceneDelegate.swift */,
-				AFC10F5A245C4A5D0016643B /* Config.swift */,
+				AF9460262464A876004F1282 /* LintSchool */,
+				AF9460252464A876004F1282 /* Products */,
+				AAA136042443E9527FE941DB /* Pods */,
+				1E8AC5C03AD9FA495F16D379 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AF9460252464A876004F1282 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF9460242464A876004F1282 /* LintSchool.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF9460262464A876004F1282 /* LintSchool */ = {
+			isa = PBXGroup;
+			children = (
+				AF94603B2464A8DB004F1282 /* App */,
+				AF9460482464A980004F1282 /* Coordinators */,
+				AF9460492464A98E004F1282 /* Home */,
+				AF9460302464A877004F1282 /* Assets.xcassets */,
+				AF9460322464A877004F1282 /* LaunchScreen.storyboard */,
+				AF9460352464A877004F1282 /* Info.plist */,
+			);
+			path = LintSchool;
+			sourceTree = "<group>";
+		};
+		AF94603B2464A8DB004F1282 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				AF9460272464A876004F1282 /* AppDelegate.swift */,
+				AF9460292464A876004F1282 /* SceneDelegate.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		AFC10FCA245CC68B0016643B /* Home */ = {
+		AF9460482464A980004F1282 /* Coordinators */ = {
 			isa = PBXGroup;
 			children = (
-				AF27C1F9245B569C00184004 /* HomeViewController.swift */,
-				AFC10F80245C50AA0016643B /* HomeViewController.xib */,
+				AF94603F2464A94C004F1282 /* CatalogCoordinator.swift */,
+				AF9460402464A94C004F1282 /* CourseCoordinator.swift */,
+				AF94603E2464A94C004F1282 /* MainCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		AF9460492464A98E004F1282 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AF9460452464A962004F1282 /* HomeViewController.swift */,
+				AF9460442464A962004F1282 /* HomeViewController.xib */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -151,14 +164,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF27C1F1245B569C00184004 /* LintSchool */ = {
+		AF9460232464A876004F1282 /* LintSchool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF27C206245B56A000184004 /* Build configuration list for PBXNativeTarget "LintSchool" */;
+			buildConfigurationList = AF9460382464A877004F1282 /* Build configuration list for PBXNativeTarget "LintSchool" */;
 			buildPhases = (
-				AF27C1EE245B569C00184004 /* Sources */,
-				AF27C1EF245B569C00184004 /* Frameworks */,
-				AF27C1F0245B569C00184004 /* Resources */,
-				AFC10F3C245B5B710016643B /* Embed Frameworks */,
+				3A74E91C798A70EE116BCF87 /* [CP] Check Pods Manifest.lock */,
+				AF9460202464A876004F1282 /* Sources */,
+				AF9460212464A876004F1282 /* Frameworks */,
+				AF9460222464A876004F1282 /* Resources */,
+				AF9460902464AB53004F1282 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -166,25 +180,25 @@
 			);
 			name = LintSchool;
 			productName = LintSchool;
-			productReference = AF27C1F2245B569C00184004 /* LintSchool.app */;
+			productReference = AF9460242464A876004F1282 /* LintSchool.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AF27C1EA245B569C00184004 /* Project object */ = {
+		AF94601C2464A876004F1282 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = Elgendy;
 				TargetAttributes = {
-					AF27C1F1245B569C00184004 = {
+					AF9460232464A876004F1282 = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
 			};
-			buildConfigurationList = AF27C1ED245B569C00184004 /* Build configuration list for PBXProject "LintSchool" */;
+			buildConfigurationList = AF94601F2464A876004F1282 /* Build configuration list for PBXProject "LintSchool" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -192,51 +206,75 @@
 				en,
 				Base,
 			);
-			mainGroup = AF27C1E9245B569C00184004;
-			productRefGroup = AF27C1F3245B569C00184004 /* Products */;
+			mainGroup = AF94601B2464A876004F1282;
+			productRefGroup = AF9460252464A876004F1282 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF27C1F1245B569C00184004 /* LintSchool */,
+				AF9460232464A876004F1282 /* LintSchool */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AF27C1F0245B569C00184004 /* Resources */ = {
+		AF9460222464A876004F1282 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF27C202245B56A000184004 /* LaunchScreen.storyboard in Resources */,
-				AF27C1FF245B56A000184004 /* Assets.xcassets in Resources */,
-				AFC10F81245C50AA0016643B /* HomeViewController.xib in Resources */,
+				AF9460342464A877004F1282 /* LaunchScreen.storyboard in Resources */,
+				AF9460312464A877004F1282 /* Assets.xcassets in Resources */,
+				AF9460462464A962004F1282 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A74E91C798A70EE116BCF87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LintSchool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		AF27C1EE245B569C00184004 /* Sources */ = {
+		AF9460202464A876004F1282 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF27C1FA245B569C00184004 /* HomeViewController.swift in Sources */,
-				AFC10F5B245C4A5D0016643B /* Config.swift in Sources */,
-				AFC10F7F245C4F5B0016643B /* MainCoordinator.swift in Sources */,
-				AF27C1F6245B569C00184004 /* AppDelegate.swift in Sources */,
-				AFC10FA3245CB7EE0016643B /* CourseCoordinator.swift in Sources */,
-				AFC10FA1245CB74C0016643B /* CatalogCoordinator.swift in Sources */,
-				AF27C1F8245B569C00184004 /* SceneDelegate.swift in Sources */,
+				AF9460282464A876004F1282 /* AppDelegate.swift in Sources */,
+				AF9460432464A94C004F1282 /* CourseCoordinator.swift in Sources */,
+				AF9460412464A94C004F1282 /* MainCoordinator.swift in Sources */,
+				AF94602A2464A876004F1282 /* SceneDelegate.swift in Sources */,
+				AF9460472464A962004F1282 /* HomeViewController.swift in Sources */,
+				AF9460422464A94C004F1282 /* CatalogCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AF27C200245B56A000184004 /* LaunchScreen.storyboard */ = {
+		AF9460322464A877004F1282 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				AF27C201245B56A000184004 /* Base */,
+				AF9460332464A877004F1282 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -244,7 +282,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		AF27C204245B56A000184004 /* Debug */ = {
+		AF9460362464A877004F1282 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +342,7 @@
 			};
 			name = Debug;
 		};
-		AF27C205245B56A000184004 /* Release */ = {
+		AF9460372464A877004F1282 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,8 +396,9 @@
 			};
 			name = Release;
 		};
-		AF27C207245B56A000184004 /* Debug */ = {
+		AF9460392464A877004F1282 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 211F3DCE9DE3F824F6F6C453 /* Pods-LintSchool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -376,8 +415,9 @@
 			};
 			name = Debug;
 		};
-		AF27C208245B56A000184004 /* Release */ = {
+		AF94603A2464A877004F1282 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A74AAAE29F413524C301EAF /* Pods-LintSchool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -397,25 +437,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF27C1ED245B569C00184004 /* Build configuration list for PBXProject "LintSchool" */ = {
+		AF94601F2464A876004F1282 /* Build configuration list for PBXProject "LintSchool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF27C204245B56A000184004 /* Debug */,
-				AF27C205245B56A000184004 /* Release */,
+				AF9460362464A877004F1282 /* Debug */,
+				AF9460372464A877004F1282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF27C206245B56A000184004 /* Build configuration list for PBXNativeTarget "LintSchool" */ = {
+		AF9460382464A877004F1282 /* Build configuration list for PBXNativeTarget "LintSchool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF27C207245B56A000184004 /* Debug */,
-				AF27C208245B56A000184004 /* Release */,
+				AF9460392464A877004F1282 /* Debug */,
+				AF94603A2464A877004F1282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = AF27C1EA245B569C00184004 /* Project object */;
+	rootObject = AF94601C2464A876004F1282 /* Project object */;
 }
