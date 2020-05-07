@@ -25,6 +25,7 @@
 		AF9460472464A962004F1282 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF9460452464A962004F1282 /* HomeViewController.swift */; };
 		AF94608E2464AB53004F1282 /* Common.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF94608D2464AB53004F1282 /* Common.framework */; };
 		AF94608F2464AB53004F1282 /* Common.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AF94608D2464AB53004F1282 /* Common.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AFD34A162464CF71008DE2F3 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD34A152464CF71008DE2F3 /* Configuration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +64,7 @@
 		AF9460442464A962004F1282 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		AF9460452464A962004F1282 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		AF94608D2464AB53004F1282 /* Common.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Common.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD34A152464CF71008DE2F3 /* Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
 		C755F89875D727FFF26E3165 /* Pods-LintSchool.alpha.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LintSchool.alpha.xcconfig"; path = "Target Support Files/Pods-LintSchool/Pods-LintSchool.alpha.xcconfig"; sourceTree = "<group>"; };
 		E3B4D88EB87665723E73E0E9 /* Pods_LintSchool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LintSchool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -142,6 +144,7 @@
 			children = (
 				AF9460272464A876004F1282 /* AppDelegate.swift */,
 				AF9460292464A876004F1282 /* SceneDelegate.swift */,
+				AFD34A152464CF71008DE2F3 /* Configuration.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				AF9460282464A876004F1282 /* AppDelegate.swift in Sources */,
 				AF9460432464A94C004F1282 /* CourseCoordinator.swift in Sources */,
+				AFD34A162464CF71008DE2F3 /* Configuration.swift in Sources */,
 				AF9460412464A94C004F1282 /* MainCoordinator.swift in Sources */,
 				AF94602A2464A876004F1282 /* SceneDelegate.swift in Sources */,
 				AF9460472464A962004F1282 /* HomeViewController.swift in Sources */,

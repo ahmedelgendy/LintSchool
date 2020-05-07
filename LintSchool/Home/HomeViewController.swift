@@ -23,8 +23,13 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "Home"
-        print("SERVER_URL: ", Bundle.main.object(forInfoDictionaryKey: "SERVER_URL") as? String)
+
+        if let url: String = try? Configuration.value(for: "SERVER_URL") {
+            print("SERVER_URL: " + url)
+        }
+        
     }
+    
 
     @IBAction func goToCoursesCatalog(_ sender: Any) {
         coordinator?.routeToCatalog()
