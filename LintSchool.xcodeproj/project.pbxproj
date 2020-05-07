@@ -414,6 +414,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.LintSchool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SERVER_URL = "https://debug.lintschool.com";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -433,6 +434,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.LintSchool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SERVER_URL = "https://release.lintschool.com";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -512,6 +514,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.LintSchool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SERVER_URL = "https://alpha.lintschool.com";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -591,6 +594,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = dev.elgendy.LintSchool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SERVER_URL = "https://beta.lintschool.com";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
