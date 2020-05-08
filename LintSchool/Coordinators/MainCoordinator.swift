@@ -7,7 +7,7 @@
 //
 
 import Common
-//import Catalog
+import Catalog
 
 class MainCoordinator: Coordinator {
     var parentCoordinator: Coordinator?
